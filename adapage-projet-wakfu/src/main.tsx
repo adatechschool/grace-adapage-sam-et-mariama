@@ -6,12 +6,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Chronologie from './Pages/Chronologie.tsx'
 import Caracteristiques from './Pages/Caracteristiques.tsx'
 import AnkamaVerse from './Pages/AnkamaVerse.tsx'
+import NotFoundPage from './Pages/NotFoundPage.tsx'
 
 const router = createBrowserRouter([
   {path:"/", element: <App />},
-  {path:"/chronoligie", element: <Chronologie />},
+  {path:"/chronologie", element: <Chronologie />},
   {path:"/caracteristiques", element: <Caracteristiques />},
-  {path:"/AnkamaVerse", element: <AnkamaVerse />},
+  {path:"/ankamaverse", element: <AnkamaVerse />},
+  {path:"*", element: <NotFoundPage />},
 ]);
 
 createRoot(document.getElementById('root')!).render(
