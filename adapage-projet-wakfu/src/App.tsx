@@ -2,14 +2,18 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import description from './DATA/description'
+import Repliques from './components/Repliques'
 
 
 function App() {
+  
+
   
   return (
     <>
     <Header />
     <h1>{description.name}</h1>
+    <Repliques/>
     <div>
       <div>
       <h2>Description</h2>
@@ -36,7 +40,6 @@ function App() {
       </div>
       <img src={description.img} alt="Photo Goultard" />
     </div>
-      
     </>
   )
 }
