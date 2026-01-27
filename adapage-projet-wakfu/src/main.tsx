@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Chronologie from './components/Chronologie.tsx'
-import Caracteristiques from './components/Caracteristiques.tsx'
-import AnkamaVerse from './components/AnkamaVerse.tsx'
+import Chronologie from './Pages/Chronologie.tsx'
+import Caracteristiques from './Pages/Caracteristiques.tsx'
+import AnkamaVerse from './Pages/AnkamaVerse.tsx'
 
 const router = createBrowserRouter([
   {path:"/", element: <App />},
