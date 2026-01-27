@@ -4,6 +4,7 @@ function Chronologie(){
  return(
  <>
  <Header />
+ <h1>Chronologie</h1>
  </>)
 }
 
