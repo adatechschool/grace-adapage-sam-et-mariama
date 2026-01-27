@@ -1,4 +1,4 @@
-export const chronologie = [{ 
+const chronologie = [{ 
     id:0,
     titre:"Enfance",
     date:"−1111",
@@ -65,3 +65,5 @@ export const chronologie = [{
     date:"saison 5 Wakfu",
     descrpt:"Peu après la visite de Madagaskan et le départ de Flopin, Goultard est recruté par Yugo (qu'il prit d'abord pour Oropo à cause de son apparence) pour protéger le Royaume Sadida de l'invasion des Nécromes et reçoit une grande quantité de wakfu grâce à l'Eliasphère.Durant la bataille, conformément à un plan de Yugo, Goultard, Tristepin et Joris devaient profiter de la bataille pour pénétrer dans le Nécromonde et libérer Nora, mais Tristepin décide de rester en arrière pour protéger sa famille. Une fois arrivés, Yugo occupe Toross Mordal tandis que Goultard et Joris tente de libérer Nora de sa prison de pierre, ce qui réussit.Par la suite, il aide Yugo dans son affrontement ultime contre Toross et tente de se sacrifier pour lui permettre de fuir. Mais Yugo, parvient à récupérer Goultard et le ramener dans le monde des Douze.Après la bataille, il assiste au mariage entre Yugo et Amalia.",
     image:""}];
+
+    export default chronologie

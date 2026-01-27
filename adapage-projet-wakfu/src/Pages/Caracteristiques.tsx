@@ -5,6 +5,7 @@ function Caracteristiques(){
 return(
     <>
     <Header />
+    <h1>Caractéristiques</h1>
     </>
 )
 }

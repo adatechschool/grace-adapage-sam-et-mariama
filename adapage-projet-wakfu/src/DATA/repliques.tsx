@@ -1,4 +1,4 @@
-export const replique =[{id:0 , replique00:"« La violence est parfois la seule réponse honnête.-OAV : Goultard le Barbare-"},
+export const replique =[{id:0 , replique:"« La violence est parfois la seule réponse honnête.-OAV : Goultard le Barbare-"},
     { id:1 , 
     replique:"Je suis Goultard le Barbare.-saison 1-"},
     { id:2,

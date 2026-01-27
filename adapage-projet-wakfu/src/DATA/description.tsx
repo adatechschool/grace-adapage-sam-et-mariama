@@ -1,5 +1,5 @@
 
-const description =[{
+const description ={
    id:0,
     name:"Goultard le Protecteur",
     surnom:"Dark Vlad, Vald, Le Barbare,Goultard le terrible,Goultard le maudit, Goultard le fléau, Goultard le démon, Goultard le possédé",
@@ -13,6 +13,6 @@ const description =[{
     statut:"vivant",
     img: ""
 
-}];
+};
 
 export default description
