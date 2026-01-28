@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import replique from '../DATA/repliques';
+import replique from '../data/repliques';
 
 interface repliques{
     id:number;
@@ -25,6 +25,7 @@ const [repliques, setSelectRepliques] = useState<repliques[]>(replique);
  })}
 </div>
 </div>
+
 </>   
     
 )   

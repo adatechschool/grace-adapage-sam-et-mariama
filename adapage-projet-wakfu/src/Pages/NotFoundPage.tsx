@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer_temp"
 
 const NotFoundPage = () => {
     return(
@@ -7,7 +8,9 @@ const NotFoundPage = () => {
             <Link to ={"/"}>
             <button>Go Back Home</button>
             </Link>
+             <Footer/>
         </div>
+        
     )
 }
 
