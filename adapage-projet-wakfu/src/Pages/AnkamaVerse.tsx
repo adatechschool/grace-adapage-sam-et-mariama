@@ -1,5 +1,5 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer_temp"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 function AnkamaVerse(){
     return(
         <>

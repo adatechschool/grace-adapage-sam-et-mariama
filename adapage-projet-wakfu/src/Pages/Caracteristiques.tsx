@@ -1,23 +1,23 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer_temp"
-import  caracteristique  from "../data/caracteristique";
-
-
+import Footer from "../components/Footer";
+import caracteristique from "../data/caracteristique";
 
 interface Physique {
-    physique:{titre:string;
-    genre:string;
-    cheveux:string;
-    apparence:string;}
-};
+  physique: {
+    titre: string;
+    genre: string;
+    cheveux: string;
+    apparence: string;
+  };
+}
+
 interface Personnalite {
   titre: string;
   sagesse: string;
   loyauté: string;
   inspirant: string;
-  personalite: string; 
+  personalite: string;
 }
-
 
 interface Pouvoir {
   titre: string;
@@ -34,20 +34,21 @@ interface Pouvoir {
     descrpt: string;
   };
 }
-    interface Legende {
+
+interface Legende {
   titre: string;
   descrpt1: string;
   descrpt2: string;
   descrpt3: string;
-} 
+}
 
-      interface Exploit {
+interface Exploit {
   titre: string;
   descrpt1: string;
   descrpt2: string;
-} 
+}
 
-/* interface Caracteristique {
+interface Caracteristique {
   id: number;
   replique: string;
   physique: Physique;
@@ -55,58 +56,79 @@ interface Pouvoir {
   pouvoir?: Pouvoir;
   legende?: Legende;
   exploit?: Exploit[];
-} */
-function Caracteristiques(){
+}
 
-return(
-   <>
+function Caracteristiques() {
+  return (
+    <>
       <Header />
-      <h1>Caractéristiques</h1>
+      <h1 className="text-xl text-center font-bold text-gray-500 mb-4">
+        Caractéristiques
+      </h1>
 
       {caracteristique.map((Caract) => (
         <div key={Caract.id}>
-          <h2>{Caract.physique.titre}</h2>
-          <p>{Caract.physique.genre}</p>
-          <p>{Caract.physique.cheveux}</p>
-          <p>{Caract.physique.apparence}</p>
-        
+          <h2 className="p-6">{Caract.physique.titre}</h2>
+          <p className="p-2">{Caract.physique.genre}</p>
+          <p className="p-2">{Caract.physique.cheveux}</p>
+          <p className="p-2">{Caract.physique.apparence}</p>
 
           {Caract.personnalite && (
             <>
-              <h3>{Caract.personnalite.titre}</h3>
-              <p>{Caract.personnalite.sagesse}</p>
-              <p>{Caract.personnalite.loyauté}</p>
-              <p>{Caract.personnalite.inspirant}</p>
-              <p>{Caract.personnalite.personnalite}</p>
+              <h3 className="p-6">{Caract.personnalite.titre}</h3>
+              <p className="p-2">{Caract.personnalite.sagesse}</p>
+              <p className="p-2">{Caract.personnalite.loyauté}</p>
+              <p className="p-2">{Caract.personnalite.inspirant}</p>
+              <p className="p-2">{Caract.personnalite.personnalite}</p>
             </>
           )}
-{/* {Caract.Caracteristique && (
-            <>
-              <h3>{Caract.Caracteristique.titre}</h3>
-              <p>{Caract.Caracteristique.sagesse}</p>
-              <p>{Caract.personnalite.loyauté}</p>
-              <p>{Caract.personnalite.inspirant}</p>
-              <p>{Caract.personnalite.personnalite}</p>
-            </>
-          )} */}
+
           {Caract.pouvoir && (
-            <>
-              <h3>{Caract.pouvoir.titre}</h3>
-              <p>{Caract.pouvoir.immortalité}</p>
-              {Caract.pouvoir.avatar.avatars.map((a, idx) => (
-                <p key={idx}>
-                  <strong>{a.titre} :</strong> {a.descpt}
-                </p>
-              ))}
-            </>
+            <div className="px-6">
+              <h3 className="p-6">{Caract.pouvoir.titre}</h3>
+              <p className="p-2">{Caract.pouvoir.immortalité}</p>
+
+              <div>
+                {Caract.pouvoir.avatar.avatars.map((a, idx) => (
+                  <p key={idx} className="p-2">
+                    <strong className="p-4">{a.titre} :</strong> {a.descpt}
+                  </p>
+                ))}
+              </div>
+
+              <h3 className="p-6">{Caract.pouvoir.dieu.titre}</h3>
+              <p className="p-2">{Caract.pouvoir.dieu.descrpt}</p>
+              <h3 className="p-6">{Caract.pouvoir.force.titre}</h3>
+              <p className="p-2">{Caract.pouvoir.force.descrpt}</p>
+
+              {Caract.legende && (
+                <div className="p-6">
+                  <h3 className="p-6">{Caract.legende.titre}</h3>
+                  <p className="p-2">{Caract.legende.descrpt1}</p>
+                  <p className="p-2">{Caract.legende.descrpt2}</p>
+                  <p className="p-2">{Caract.legende.descrpt3}</p>
+                </div>
+              )}
+
+              {Caract.exploit && Caract.exploit.length > 0 && (
+                <div className="p-6">
+                  {Caract.exploit.map((a, idx) => (
+                    <div key={idx} className="mb-3">
+                      <h3 className="p-6">{a.titre}</h3>
+                      <p className="p-2">{a.descrpt1}</p>
+                      <p className="p-2">{a.descrpt2}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           )}
         </div>
       ))}
-      
 
       <Footer />
     </>
   );
 }
 
-export default Caracteristiques
+export default Caracteristiques;
