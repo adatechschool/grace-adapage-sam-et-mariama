@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import caracteristique from "../DATA/caracteristique"
 
 function Caracteristiques(){
 
