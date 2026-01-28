@@ -1,6 +1,6 @@
 
 
- const caracteristique=[{
+export const caracteristique=[{
     id:0,
     
 physique:{titre:" description physique",
@@ -46,4 +46,3 @@ exploit:[{titre:"Protection des territoires",
     descrpt1:"Intervient dans des quêtes majeures de Wakfu, souvent en allié puissant mais discret.",
   descrpt2:"Protège les reliques ou artefacts anciens, comme certains objets de la famille Goultard (ex : Épée Divine)."}],
 }];
-export default caracteristique;

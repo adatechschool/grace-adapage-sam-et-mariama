@@ -1,6 +1,11 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer";
-import caracteristique from "../data/caracteristique";
+
+import Footer from "../components/Footer"
+import { caracteristique } from "../data/caracteristique";
+
+
+
+
 
 interface Physique {
   physique: {

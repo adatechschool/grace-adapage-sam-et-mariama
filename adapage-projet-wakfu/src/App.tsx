@@ -1,10 +1,12 @@
 
 import { useState } from 'react'
-import './App.css';
-import Header from './components/Header';
-import description from './data/description';
-import Repliques from './components/Repliques';
-import Footer from "./components/Footer";
+
+import './App.css'
+import Header from './components/Header'
+import description from './data/description'
+import Repliques from './components/Repliques'
+import Footer from "./components/Footer"
+
 
 function App() {
   

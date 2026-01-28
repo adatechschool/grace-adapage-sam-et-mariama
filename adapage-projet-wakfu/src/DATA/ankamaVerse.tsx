@@ -1,4 +1,4 @@
-export const AnkamaVerse =[{
+const ankamaVerse =[{
     id:0,
     name:"Goultard l’Ancien",
     label:"Fondateur de la lignée Goultard, Guerrier légendaire, connu pour avoir uni plusieurs clans barbares et repoussé des envahisseurs.Ses exploits posent les bases de la réputation de la famille.",
@@ -13,3 +13,5 @@ export const AnkamaVerse =[{
     label:"Toujours vivant, même après les grandes guerres.Mentor pour certains héros et joueurs.Continue à défendre certaines zones du Monde des Douze.Sa légende inspire encore de nouveaux aventuriers.",
     image:""
 }];
+
+export default ankamaVerse;
