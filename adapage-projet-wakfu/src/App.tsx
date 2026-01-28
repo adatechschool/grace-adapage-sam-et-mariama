@@ -6,7 +6,7 @@ import Header from './components/Header'
 import description from './data/description'
 import Repliques from './components/Repliques'
 import Footer from "./components/Footer"
-
+/* import goultarddesert from "./scrimagedecor/goultarddesert.png"; */
 
 function App() {
   
@@ -14,10 +14,15 @@ function App() {
   
   return (
     <>
+    
     <Header />
     <h1>{description.name}</h1>
     <Repliques/>
     <div>
+       <div
+     /*  className="min-h-screen flex flex-col bg-cover bg-center"
+      style={{ backgroundImage: `url(${goultarddesert})` }} */
+    >
       <div>
       <h2>Description</h2>
           <div>
@@ -43,8 +48,11 @@ function App() {
       </div>
       <img src={description.img} alt="Photo Goultard" />
     </div>
+
      <Footer/>
-    </>
+   
+    </div>
+     </>
   )
 }
 
