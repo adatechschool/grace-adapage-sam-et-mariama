@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Header from "../components/Header"
-import chronologie from "../DATA/chronologie";
+import Header from "../components/Header";
+import chronologie from "../data/chronologie";
+import Footer from "../components/Footer";
 
 function Chronologie(){
     const [chronos, setChronos] = useState(chronologie)
@@ -19,7 +20,9 @@ function Chronologie(){
         </div>
     )
  })}
+ <Footer/>
  </>)
+ 
 }
 
 export default Chronologie
