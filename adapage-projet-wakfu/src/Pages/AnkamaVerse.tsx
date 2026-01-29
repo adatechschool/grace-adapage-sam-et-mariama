@@ -9,14 +9,18 @@ import { useState } from "react";
 
 function AnkamaVerse(){
   const [avatars, setAvatars] = useState(ankamaVerse)
+
     return(
-        <>
+      <div className="w-full mx-auto py-6 px-4 relative bg-gray-900 text-center">
+        <div className="min-h-screen flex flex-col">
+      
         <Header />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+        <main className="flex-1 p-4 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 justify-items-center">
   {avatars.map((avatar) => (
     <div
       key={avatar.id}
-      className="bg-gray-100 rounded-lg shadow-md overflow-hidden flex flex-col items-center"
+      className="bg-gray-100 rounded-lg shadow-md overflow-hidden flex flex-col items-center "
     >
       <img
         
@@ -29,10 +33,11 @@ function AnkamaVerse(){
   ))}
 </div>
 
-          <>
-        <Footer/></>
-        </>
+        </main>
+        <Footer/></div>
+      </div>
     )
+  
 }
 
 export default AnkamaVerse

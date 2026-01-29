@@ -14,15 +14,13 @@ function App() {
   
   return (
     <>
-    
+    <div className="w-full mx-auto py-6 px-4 relative bg-gray-900 text-center">
     <Header />
     <h1>{description.name}</h1>
     <Repliques/>
     <div>
        <div
-     /*  className="min-h-screen flex flex-col bg-cover bg-center"
-      style={{ backgroundImage: `url(${goultarddesert})` }} */
-    >
+    className="grid grid-cols-1 sm:grid-cols-2  gap-6 p-4">
       <div>
       <h2>Description</h2>
           <div>
@@ -51,6 +49,7 @@ function App() {
 
      <Footer/>
    
+    </div>
     </div>
      </>
   )
