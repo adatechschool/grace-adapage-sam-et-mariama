@@ -55,6 +55,7 @@ interface Caracteristique {
 function Caracteristiques() {
   return (
     <>
+    <div className="w-full mx-auto py-6 px-4 relative bg-gray-900 text-center">
       <Header />
 
       <div className="w-full mx-auto py-12 px-4 relative bg-gray-900">
@@ -132,6 +133,7 @@ function Caracteristiques() {
       </div>
 
       <Footer />
+    </div>
     </>
   );
 }

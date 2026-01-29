@@ -11,7 +11,7 @@ function AnkamaVerse(){
   const [avatars, setAvatars] = useState(ankamaVerse)
 
     return(
-      
+      <div className="w-full mx-auto py-6 px-4 relative bg-gray-900 text-center">
         <div className="min-h-screen flex flex-col">
       
         <Header  />
@@ -36,8 +36,9 @@ function AnkamaVerse(){
 
         </main>
         <Footer/></div>
-      
+      </div>
     )
+  
 }
 
 export default AnkamaVerse

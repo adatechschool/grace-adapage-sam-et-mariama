@@ -10,7 +10,6 @@ import tristepinGoul from "../assets/Images/TristepinGoul.jpg";
 import goulvsAdamai from "../assets/Images/goulvsAdamai.jpg";
 import inglorium from "../assets/Images/Inglorium.jpg";
 import retourMaison from "../assets/Images/RetourMaison.jpg";
-
 import fin from "../assets/Images/fin.jpg"
 
 const chronologie = [{ 
