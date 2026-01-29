@@ -14,9 +14,9 @@ function Footer() {
 
       {/* Texte */}
       <div className="text-center space-y-1">
-        <span className="block font-semibold">Mentions légales</span>
+        <span className="block font-extralight text-xs">Mentions légales
         <p>Contact</p>
-        <p>© SAM & Mariama 2026 — Projet Wakfu Goultard</p>
+        <p>© SAM & Mariama 2026 — Projet Wakfu Goultard</p></span>
       </div>
     </footer>
   );

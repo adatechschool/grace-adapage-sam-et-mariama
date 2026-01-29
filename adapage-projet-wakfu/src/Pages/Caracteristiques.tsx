@@ -1,19 +1,12 @@
 import Header from "../components/Header";
-
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 import { caracteristique } from "../data/caracteristique";
 
-
-
-
-
 interface Physique {
-  physique: {
-    titre: string;
-    genre: string;
-    cheveux: string;
-    apparence: string;
-  };
+  titre: string;
+  genre: string;
+  cheveux: string;
+  apparence: string;
 }
 
 interface Personnalite {
@@ -28,7 +21,10 @@ interface Pouvoir {
   titre: string;
   immortalité: string;
   avatar: {
-    avatar: string[];
+    avatars: {
+      titre: string;
+      descpt: string;
+    }[];
   };
   dieu: {
     titre: string;
@@ -47,12 +43,6 @@ interface Legende {
   descrpt3: string;
 }
 
-interface Exploit {
-  titre: string;
-  descrpt1: string;
-  descrpt2: string;
-}
-
 interface Caracteristique {
   id: number;
   replique: string;
@@ -60,94 +50,83 @@ interface Caracteristique {
   personalite?: Personnalite;
   pouvoir?: Pouvoir;
   legende?: Legende;
-  exploit?: Exploit[];
 }
 
 function Caracteristiques() {
- return (
+  return (
     <>
       <Header />
 
-      <h1 className="text-xl text-center font-bold text-gray-500 mb-4">
-        Caractéristiques
-      </h1>
+      <div className="w-full mx-auto py-12 px-4 relative bg-gray-900">
+        <h1 className="text-2xl text-center font-bold text-yellow-500 mb-4">
+          Caractéristiques
+        </h1>
 
-      {/* Centrer la colonne */}
-      <div className="flex justify-center">
-        <div className="w-3/4 flex flex-col gap-6">
+        {/* Grid 2 colonnes avec cartes de même hauteur */}
+        <div className="w-full grid grid-cols-2 gap-4 items-stretch mx-auto">
           {caracteristique.map((Caract) => (
-            <div key={Caract.id} className="flex flex-col gap-6">
-
-              {/* catrte01 — Physique + Personnalité */}
-              <div className="p-6 bg-gray-100 rounded-xl shadow">
-                
-                <h2 className="p-6">{Caract.physique.titre}</h2>
-                <p className="p-2">Genre : {Caract.physique.genre}</p>
-                <p className="p-2">Couleur de cheveux : {Caract.physique.cheveux}</p>
-                <p className="p-2">Physique & apparence : {Caract.physique.apparence}</p>
-
+            <>
+              {/* carte01 — Physique + Personnalité */}
+              <div
+                key={`${Caract.id}-physique`}
+                className="p-4 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 rounded-2xl text-white border border-yellow-600 shadow flex flex-col h-full"
+              >
+                <h2 className="text-base text-yellow-500 font-bold mb-2">
+                  {Caract.physique.titre}
+                </h2>
+                <li className="text-xs p-1 text-justify">{Caract.physique.apparence}</li>
                 {Caract.personnalite && (
-                  <>
-                    <h3 className="p-6">{Caract.personnalite.titre}</h3>
-                    <p className="p-2">{Caract.personnalite.sagesse}</p>
-                    <p className="p-2">{Caract.personnalite.loyauté}</p>
-                    <p className="p-2">{Caract.personnalite.inspirant}</p>
-                    <p className="p-2">{Caract.personnalite.personnalite}</p>
-                  </>
+                  <li className="text-xs p-1 text-justify">{Caract.personnalite.personnalite}</li>
                 )}
               </div>
 
               {/* carte02 — Pouvoir */}
               {Caract.pouvoir && (
-                <div className="p-6 bg-gray-50 rounded-xl shadow">
-                
-                  <div className="px-6">
-                    <h3 className="p-6">{Caract.pouvoir.titre}</h3>
-                    <p className="p-2">{Caract.pouvoir.immortalité}</p>
+                <div
+                  key={`${Caract.id}-pouvoir`}
+                  className="p-4 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 rounded-2xl text-white border border-yellow-600 shadow flex flex-col h-full"
+                >
+                  <h2 className="text-base text-yellow-500 font-bold mb-2">
+                    {Caract.pouvoir.titre}
+                  </h2>
+                  <li className="text-xs p-1 text-justify">{Caract.pouvoir.immortalité}</li>
 
-                    <div>
-                      {Caract.pouvoir.avatar.avatars.map((a, idx) => (
-                        <p key={idx} className="p-2">
-                          <strong className="p-4">{a.titre} :</strong> {a.descpt}
-                        </p>
-                      ))}
-                    </div>
-
-                    <h3 className="p-6">{Caract.pouvoir.dieu.titre}</h3>
-                    <p className="p-2">{Caract.pouvoir.dieu.descrpt}</p>
-
-                    <h3 className="p-6">{Caract.pouvoir.force.titre}</h3>
-                    <p className="p-2">{Caract.pouvoir.force.descrpt}</p>
-                  </div>
+                  {Caract.pouvoir.avatar.avatars.map((a, idx) => (
+                    <li key={idx} className="text-xs p-1 text-justify">
+                      <strong>{a.titre} :</strong> {a.descpt}
+                    </li>
+                  ))}
                 </div>
               )}
 
               {/* carte03 — Légende */}
               {Caract.legende && (
-                <div className="p-6 bg-gray-50 rounded-xl shadow">
-                  
-                  <h3 className="p-6">{Caract.legende.titre}</h3>
-                  <p className="p-2">{Caract.legende.descrpt1}</p>
-                  <p className="p-2">{Caract.legende.descrpt2}</p>
-                  <p className="p-2">{Caract.legende.descrpt3}</p>
+                <div
+                  key={`${Caract.id}-legende`}
+                  className="p-4 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 rounded-2xl text-white border border-yellow-600 shadow flex flex-col h-full"
+                >
+                  <h2 className="text-base text-yellow-500 font-bold mb-2">
+                    {Caract.legende.titre}
+                  </h2>
+                  <li className="text-xs p-1 text-justify">{Caract.legende.descrpt1}</li>
+                  <li className="text-xs p-1 text-justify">{Caract.legende.descrpt2}</li>
+                  <li className="text-xs p-1 text-justify">{Caract.legende.descrpt3}</li>
                 </div>
               )}
 
-              {/* carte04 — Exploits */}
-              {Caract.exploit && Caract.exploit.length > 0 && (
-                <div className="p-6 bg-gray-50 rounded-xl shadow">
-                  
-                  {Caract.exploit.map((a, idx) => (
-                    <div key={idx} className="mb-3">
-                      <h3 className="p-6">{a.titre}</h3>
-                      <p className="p-2">{a.descrpt1}</p>
-                      <p className="p-2">{a.descrpt2}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
-
-            </div>
+              {/* carte04 — Pouvoirs du dieu Iop */}
+              <div
+                key={`${Caract.id}-pouvoir-dieu-iop`}
+                className="p-4 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 rounded-2xl text-white border border-yellow-600 shadow flex flex-col h-full"
+              >
+                <h2 className="text-base text-yellow-500 font-bold mb-2">
+                  Pouvoirs du dieu Iop
+                </h2>
+                <li className="text-xs p-1 text-justify">
+                  Goultard hérite des pouvoirs de son père, le dieu Iop, les transmet à Tristepin en 988, mais les récupère après la blessure de son disciple, restant ainsi le plus puissant des dieux.
+                </li>
+              </div>
+            </>
           ))}
         </div>
       </div>

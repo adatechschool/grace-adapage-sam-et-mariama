@@ -14,13 +14,14 @@ function AnkamaVerse(){
       
         <div className="min-h-screen flex flex-col">
       
-        <Header />
-        <main className="flex-1 p-4 justify-center">
+        <Header  />
+         <div className="w-full mx-auto py-12 px-4 relative bg-gray-900"></div>
+        <main className="flex-1 p-4 justify-centerrelative bg-gray-900">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 justify-items-center">
   {avatars.map((avatar) => (
     <div
       key={avatar.id}
-      className="bg-gray-100 rounded-lg shadow-md overflow-hidden flex flex-col items-center "
+      className="bg-linear-to-br from-gray-900 via-red-950 to-gray-900 p-6 rounded-2xl text-white border border-yellow-600 rounded-lg shadow-md overflow-hidden flex flex-col items-center "
     >
       <img
         
