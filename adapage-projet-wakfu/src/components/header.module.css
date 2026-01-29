@@ -1,10 +1,16 @@
 .header{
+      margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem 0.5rem;
+ 
     background-color: rgb(135, 111, 111);
     height:100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10;
+    border-radius: 6px;
+   
 }
 
 .button{
