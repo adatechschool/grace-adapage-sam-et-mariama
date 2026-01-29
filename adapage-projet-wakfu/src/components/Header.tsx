@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import logo from '../assets/LOGO-GOULTARD-04.svg'
+import logo from '../assets/LOGO-GOULTARD-06.svg'
 
 export default function Header(){
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     
     return(
-        <div className="mx-4 px-2 py-2 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 h-auto md:h-25 flex flex-wrap md:flex-nowrap items-center justify-between rounded-md sticky top-0 z-50">
+        <div className="mx-4 px-2 py-2 bg-linear-to-br from-gray-900 via-red-950 to-gray-900 h-auto md:h-25 flex flex-wrap md:flex-nowrap items-center justify-between rounded-md sticky top-0 z-50 ">
             <Link to={'/'}>
                 <img src={logo} alt="logo goultard" className='h-16 md:h-20'/>
             </Link>
