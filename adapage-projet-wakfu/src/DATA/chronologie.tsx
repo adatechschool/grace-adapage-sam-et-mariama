@@ -1,69 +1,83 @@
+import goultardEnfance from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard_Enfance.jpg"
+import goultardAmour from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard_Amour.jpg"
+import darkVlad from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/DarkVlad.webp"
+import vlad from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Vlad.jpg"
+import goultardHumain from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard-Humain.jpg"
+import tristepinGoultard from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Tristepin-Goutard.webp"
+import goultardEntreMort from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/GoultardEntrelesMort.webp"
+import invasion from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Invasion.webp"
+import tristepinGoul from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/TristepinGoul.jpg"
+import goulvsAdamai from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/goulvsAdamai.jpg"
+import inglorium from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Inglorium.jpg"
+import retourMaison from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/RetourMaison.jpg"
+import fin from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/fin.jpg"
+
 const chronologie = [{ 
     id:0,
     titre:"Enfance",
     date:"−1111",
     descrpt:"Goultard est né en -1111 dans le village de Gisgoul, dans lequel il a grandi auprès de sa mère. Très jeune, il a manifesté une force surhumaine et a même sauvé ses amis d'un Taure qu'il a tué. Cependant ce Taure était le fils de Kriture, un Taure redoutée dans tout le village. Par peur que ce dernier vienne se venger, le village, poussé par le doyen, chassent Goultard et sa mère Cabotine, espèrant qu’en les livrant en pâture à Kriture, cela le dissuadera d’attaquer le village. Lorsque Kriture arriva pour venger son fils, Goultard l’envoie valser dans les airs jusqu’à la place centrale du village, où il écrasa le doyen, puis revient à la charge et le frappe des heures durant jusqu’à la tombée de la nuit, tuant le Taure. Depuis ce jour Goultard est reconnu comme un héros dans son village.",
-    image:"",},
+    image:`${goultardEnfance}`,},
     { 
     id:1,
     titre:"Amour et perte tragique",
     date:"vers −1080 à −1050",
     descrpt:"En grandissant, Goultard devient un chasseur de monstres très réputé qui apporte la paix et la sérénité aux villages opprimés. Sa réputation est telle, qu'il devient vite populaire auprès de la gent féminine. Parmi elles, une sorcière va réussir à attirer son attention et alors qu’ils ont déjà un enfant et qu’elle est déjà enceinte du second, ils finiront par se marier et auront en tout quatre enfants.Malheureusement, Katar, un Sacrieur à la solde de Djaul, kidnappe la famille de Goultard pour le forcer à l'affronter. le demi-dieu Iop répond à son défi et affronte le Sacrieur. Cependant durant le combat, il découvre avec horreur les corps sans vie de sa famille. La tristesse fait rapidement place à une haine féroce qui décuple la violence de ses coups. Katar est vaincu sans peine et se retrouve agonisant sur le sol. C’est à ce moment-là que Médoroziam, le démon qui possédait le corps du Sacrieur, sort de celui-ci et prend possession de celui de Goultard. Le véritable but de Katar étant de forcer Goultard à se mettre en colère pour attirer Médoroziam et ainsi se libérer de sa possession. Goultard, corrompu par Médoroziam, achève alors Katar et plante sa tête au bout d'une lance, et devient à présent connu sous le nom de Goultard le Barbare par ses nombreux méfaits.",
-    image:"",},{ 
+    image:`${goultardAmour}`,},{ 
     id:2,
     titre:"Personnalité multiple",
     date:"année 24",
     descrpt:"Lors de l'invasion des Shushus en 24, après plusieurs siècles emprisonné, Goultard a été recruté par Algathe pour défendre le village des Prunes Bleues, qui détenait le Dofus Émeraude, contre l'attaque de quatre des plus puissants Shushus de Rushu. Lors de l'affrontement, Algathe a été tuée, ce qui a provoqué la fureur de Goultard, et a donné naissance à sa personnalité maléfique de Dark Vlad. Le demi-dieu a alors massacré villageois et Shushus et est reparti avec le Dofus. Goultard a également vaincu Rushu, le roi des démons, en combat singulier, ainsi qu'un démon du nom de Rubilax, qu'il a soumis et enfermé dans une épée.",
-    image:""},
+    image:`${darkVlad}`},
     {id:3,
     titre:"Vald et la rédemption",
     date:"entre 24 et l’Ère du Wakfu",
     descrpt:"Après des siècles de méfaits en tant que Dark Vlad, Goultard s'est créé une troisième personnalité bienveillante appelée Vald. C'est sous cette forme qu'il a rencontré Arty, un jeune Féca qui est en réalité un dragon, qui est devenu son meilleur ami. Ensemble, ils ont vécu de nombreuses aventures qui les ont chacun amené à révéler leurs vraies natures et qui ont fini par les opposer au Cornu Mollu, un dieu malfaisant qui est le demi-frère de Goultard. Le Iop a également vu son ennemi Katar revenir d'entre les morts, avant de le vaincre à nouveau. Goultard et ses amis ont fini par vaincre le Cornu Mollu en utilisant les six Dofus Primordiaux contre lui.",
-    image:""},
+    image:`${vlad}`},
     {id:4,
     titre:"Humain à nouveau",
     date:"fin de l’Ère du Wakfu",
     descrpt:"Avec les années et les aventures qu'il a vécu, Goultard retrouve petit à petit son humanité, comprenant que ce changement de caractère lui poserait problème, Médoroziam se sépare de lui et reprend possession du corps de Katar qui était revenu à la vie sous forme de zombie. Enfin débarrassé de ce démon, Goultard se retrouve a nouveau capable de ressentir des émotions aussi bien positives (comme l’amour ou l’amitié) que négatives (comme la souffrance lorsqu’il se remémore la perte de sa famille).Il affrontera de nouveau Katar, mais n’aura pas le plaisir de l’achever, car c’est le shushu Ombrage qui s’en chargera. Se retrouvant sans hôte, Médoroziam tente de reprendre possession de Goultard, mais est dévoré par un des familiers du demi-dieu",
-    image:""},
+    image:`${goultardHumain}`},
     {id:5,
     titre:"Rencontre avec Tristepin",
     date:"début de l’Ère du Wakfu",
     descrpt:"Durant l'ère du Wakfu, Goultard est revenu dans son village natal afin de se recueillir sur les tombes de sa famille. Il découvre alors que son village est devenue une attraction touristique, où se déroule le Goultarention, une espèce de convention à la gloire de Goultard, vendant des produits dérivés à son image.Énervé de voir qu'on utilise son image à des fins commerciales, Goultard saccage les lieux. Au moment de repartir, il croise la route d'un jeune Iop du nom de Tristepin de Percedal. Pensant avoir affaire à un énième `fan``, il lui dit de partir car il n'y a plus de `breloques Goultard`, cependant le petit Iop répond qu'il n'a jamais entendu parler de Goultard, et qu'il était tout simplement venu pour prendre à la bagarre.Comprenant ensuite que Goultard est responsable du saccage, le jeune Tristepin se prend rapidement d'admiration pour lui et souhaite devenir aussi fort que lui. Touché par le petit Iop, Goultard lui promet de revenir un jour pour le former.",
-    image:""},
+    image:`${tristepinGoultard}`},
     {id:6,
     titre:"Retour d'entre les `morts`",
     date:"quelques années plus tard",
     descrpt:"Quelques années plus tard, Goultard tient sa promesse et fait de Tristepin son disciple, lui apprenant tout ce qu'il sait. Il apprend également que le jeune iop est la réincarnation du Dieu Iop, son père, mais décide de ne pas lui dire. Quelques temps plus tard, estimant son élève prêt, Goultard feint sa mort et confie son épée contenant Rubilax à Tristepin.Toutefois, Tristepin revient se recueillir auprès de sa `tombe` où il s'estime indigne d'être un gardien de shushu, étant trop bête et trop faible. Goultard décide alors de sortir de sa retraite pour l’aider. Il le rassure en disant que son problème n'est pas un manque de force, mais de confiance en lui, et que pour y remédier, il va le faire affronter Rubilax et le dompter. Il apprend également que son disciple a développé des sentiments amoureux envers une Crâ du nom d'Evangelyne, et qu'il a brisé son arc alors qu'il était possédé. Goultard lui répond alors que le cœur d'une femme est `bien plus solide que son arc`.Par la suite, les deux partent à la recherche de Rubilax, qu'ils retrouvent rapidement dans le corps d'une chenille. Il est furieux d’avoir été abandonné par Tristepin et compte bien lui régler son compte. Mais lorsqu’il aperçoit Goultard, sa rage se transforme vite en peur. Avant qu’il n’ait eu le temps de fuir, le demi-dieu Iop coupe l'insecte en deux, obligeant Rubilax à reprendre sa forme d’épée.Goultard explique ensuite à son élève que pour gagner le respect du Shushu qu’il garde, il doit le vaincre sur son propre terrain. Comme Rubilax est un cogneur, Tristepin a juste à le frapper plus fort qu’il ne le frappe. Il libère ensuite le shushu de sa prison et et lui rend sa vraie forme, il donne ensuite un dernier conseil à Tristepin: `Un Iop doit parfois se servir de sa tête`.Il assiste en grande partie au combat de son disciple, en sirotant un jus, et part avant la fin sachant que son disciple va gagner.",
-    image:""},
+    image:`${goultardEntreMort}`},
     {id:7,
     titre:"Seconde invasion des Shushus",
     date:"non indiqué",
     descrpt:"Lorsque Rushu et ses shushus envahissent pour la deuxième fois le Monde des Douze, via un portail crée par Qilby, Goultard, qui a senti leur présence, part pour les Griffes Pourpres pour repousser l'invasion.À son arrivée, il sauve in extremis Tristepin, lui aussi présent. Face à cela, Rushu reprend son apparence d'origine, et affronte Goultard en personne, pensant qu'il n'aura aucun mal à le vaincre, étant donné que lors de leur premier affrontement, Goultard a reçu l'aide du Dieu Iop. Cependant le combat tourne à l'avantage de Goultard qui s'avère être devenu le nouveau Dieu Iop.Voyant qu'il n'avait aucune chance, et que le portail de Qilby commence à se refermer, Rushu rappelle son armée et les absorbe pour décupler sa force et faire jeu égal avec Goultard. Par la suite, Goultard s'agrippe à Rushu pour continuer le combat dans la Shukrute, Tristepin veut le suivre, mais Goultard refuse, lui disant: `Tu as encore plein de jolies choses à voir ici, papa !`. Puis il saute dans le portail avec Rushu qui se referme derrière eux.",
-    image:""},
+    image:`${invasion}`},
     {id:8,
     titre:"La Quête des Dofus Éliatropes",
     date:"saison 3–4 Wakfu",
     descrpt:"Après un long combat, Goultard a finalement réussi à vaincre Rushu, et ce dernier lui sert désormais de paillasson. Il sent alors que Tristepin a débloqué ses pouvoirs divins et décide de lui révéler la vérité. Il entre en contact télépathique avec lui et Rubilax et révèle à tous que Tristepin est la réincarnation du Dieu Iop. Cette nouvelle ébranle Tristepin, lui qui aspirait à une simple vie de famille, le voilà doté de lourdes responsabilités. Mais après une longue hésitation, il finit par les accepter et, après avoir sauvé le Royaume Sadida des eaux, il se rend au Mont Zinit pour affronter Ogrest.Durant le combat, Tristepin perd un bras à cause du dragon primordial Dardondakal et ses pouvoirs de Dieu Iop retrournent à Goultard, qui s'inquiète. Toutefois, il est rassuré d'apprendre qu'il a survécu et qu'Ogrest ait été vaincu, cependant le Mont Zinit va s'écraser sur le Monde de Douze et le détruire. Goultard entre alors en contact avec Yugo et lui propose d'ouvrir un portail suffisamment grand pour envoyer la montagne dans la Shukrute, ce que Yugo fait, pouvant visualiser la Shukrute grâce au lien télépathique avec Goultard.Par la suite, Goultard bondit sur la montagne, attrape tout le monde (ainsi que les Dofus) et traverse le portail avant qu’il ne se referme. Le Monde des Douze étant sauvé, il propose à Tristepin de lui rendre ses pouvoirs et ainsi faire repousser son bras, mais ce dernier refuse, préférant une vie de mortel avec sa famille et espère que ce bras en moins évitera qu’on le sollicite à nouveau.Goultard respecte alors le souhait de Tristepin et se voit confier la garde des Dofus Éliatropes par Yugo",
-    image:""},
+    image:`${tristepinGoul}`},
     {id:9,
     titre:"La Fratrie des Oubliés",
     date:"saison 4 Wakfu",
     descrpt:"Quelques temps après la défaite d'Ogrest, Goultard est attaqué par Adamaï, qui a récemment rejoint la Fratrie des Oubliés, un groupe de demi-dieux désireux de se venger de leurs divins parents et responsable des plus grandes catastrophes qu'à connu le Monde des Douze.Malmené par le dragon, il reprend sa forme de Dark Vlad, mais trop affaibli il en perd vite le contrôle. Dark Vlad rejoint alors la fratrie et est assigné à l'étage du Dieu Iop. Il affronte ensuite Tristepin qui, après un combat difficile, parvient à le vaincre et à lui rendre son apparence d'origine.Goultard participe ensuite à la bataille finale contre Oropo et est ensuite envoyé dans l'Inglorium, avec tous les autres, par Echo pour contrer les plans de l'Eliotrope.",
-    image:""},
+    image:`${goulvsAdamai}`},
     {id:10,
     titre:"Dans l'Inglorium",
     date:"saison 4 Wakfu",
     descrpt:"Dans l'Inglorium, Goultard souhaite régler ses comptes avec Adamaï, mais accepte de faire une trève pour le moment. En explorant l'Inglorium pour rejoindre Yugo, Pin, le fils nouveau-né de Tristepin et Evangelyne, se retrouve possédé par Rasha, le frère de Rushu, désireux de se venger du Dieu Iop pour l'avoir enfermé pendant des millénaires.Ce dernier se révèle beaucoup plus fort que son frère, et maitrise facilement Tristepin et Goultard qui ne devront leur salut que par l'intervention d'Evangelyne qui parvient à réveiller la conscience de Pin et lui permettre de reprendre le contrôle",
-    image:""},
+    image:`${inglorium}`},
     {id:11,
     titre:"Retour à la maison",
     date:"après la saison 4",
     descrpt:"Par la suite, ils rejoignent Yugo et rencontrent la Déesse Éliatrope, qui les remercie d'avoir veillé sur son enfant mais leur demande de les laisser un moment. Tristepin propose alors à Goultard de venir vivre avec eux, ce que le demi-dieu accepte, n'ayant nulle part où aller de toute façon.À leur retour, ils découvrent que la maison de la famille Percedal a été entièrement reconstruite par Poo qui s'y est installé, croyant que le plan d'Oropo aurait réussi. Ces derniers acceptent alors sa présence parmi eux. Plus tard, Goultard se sert de Poo comme cible en racontant ses histoires à Elely.",
-    image:""},
+    image:`${retourMaison}`},
     {id:12,
     titre:"L'invasion des Nécromes",
     date:"saison 5 Wakfu",
     descrpt:"Peu après la visite de Madagaskan et le départ de Flopin, Goultard est recruté par Yugo (qu'il prit d'abord pour Oropo à cause de son apparence) pour protéger le Royaume Sadida de l'invasion des Nécromes et reçoit une grande quantité de wakfu grâce à l'Eliasphère.Durant la bataille, conformément à un plan de Yugo, Goultard, Tristepin et Joris devaient profiter de la bataille pour pénétrer dans le Nécromonde et libérer Nora, mais Tristepin décide de rester en arrière pour protéger sa famille. Une fois arrivés, Yugo occupe Toross Mordal tandis que Goultard et Joris tente de libérer Nora de sa prison de pierre, ce qui réussit.Par la suite, il aide Yugo dans son affrontement ultime contre Toross et tente de se sacrifier pour lui permettre de fuir. Mais Yugo, parvient à récupérer Goultard et le ramener dans le monde des Douze.Après la bataille, il assiste au mariage entre Yugo et Amalia.",
-    image:""}];
+    image:`${fin}`}];
 
     export default chronologie
