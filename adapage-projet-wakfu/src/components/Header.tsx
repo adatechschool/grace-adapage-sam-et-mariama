@@ -13,8 +13,8 @@ export default function Header(){
             <Link to={"/chronologie"}>
             <button className="
     inline-flex items-center justify-center
-     px-1.5 py-0.25
-    text-base font-semibold
+    px-3 py-2
+    text-sm font-semibold
     text-black
     bg-red-900
     rounded-xl
@@ -26,8 +26,8 @@ export default function Header(){
             <Link to={"/caracteristiques"}>
             <button className="
     inline-flex items-center justify-center
-    px-1.5 py-0.25
-    text-base font-semibold
+    px-3 py-2
+    text-sm font-semibold
     text-black
     bg-red-900
     rounded-xl
@@ -39,8 +39,8 @@ export default function Header(){
             <Link to={"/ankamaverse"}>
             <button  className="
     inline-flex items-center justify-center
-    px-1.5 py-0.25
-    text-base font-semibold
+   px-3 py-2
+    text-sm font-semibold
     text-black
     bg-red-900
     rounded-xl

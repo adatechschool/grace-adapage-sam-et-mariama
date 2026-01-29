@@ -1,16 +1,11 @@
-
-
 function Footer() {
   return (
-     <div className="w-full bg-gray-900">
-    <footer className="text-xl text-center text-gray-50" >
-      
-    <span className="text-center text-gray-50">Mentions légales</span>
-    <p className="text-center text-gray-50">Contact</p> 
-    <p>© SAM&Mariama2026 — Projet Wakfu Goultard</p> 
+    <footer className="fixed bottom-0 left-0 w-full bg-gray-900 text-gray-50 text-center py-4 z-50">
+      <span className="block">Mentions légales</span>
+      <p className="block">Contact</p>
+      <p className="block">© SAM&Mariama2026 — Projet Wakfu Goultard</p>
     </footer>
-     </div>
   );
 }
 
- export default Footer;
+export default Footer;
