@@ -1,15 +1,16 @@
-import goultardEnfance from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard_Enfance.jpg"
-import goultardAmour from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard_Amour.jpg"
-import darkVlad from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/DarkVlad.webp"
-import vlad from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Vlad.jpg"
-import goultardHumain from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Goultard-Humain.jpg"
-import tristepinGoultard from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Tristepin-Goutard.webp"
-import goultardEntreMort from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/GoultardEntrelesMort.webp"
-import invasion from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Invasion.webp"
-import tristepinGoul from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/TristepinGoul.jpg"
-import goulvsAdamai from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/goulvsAdamai.jpg"
-import inglorium from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Inglorium.jpg"
-import retourMaison from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/RetourMaison.jpg"
+import goultardEnfance from "../assets/Images/Goultard_Enfance.jpg";
+import goultardAmour from "../assets/Images/Goultard_Amour.jpg";
+import darkVlad from "../assets/Images/DarkVlad.webp";
+import vlad from "../assets/Images/Vlad.jpg";
+import goultardHumain from "../assets/Images/Goultard-Humain.jpg";
+import tristepinGoultard from "../assets/Images/Tristepin-Goutard.webp";
+import goultardEntreMort from "../assets/Images/GoultardEntrelesMort.webp";
+import invasion from "../assets/Images/Invasion.webp";
+import tristepinGoul from "../assets/Images/TristepinGoul.jpg";
+import goulvsAdamai from "../assets/Images/goulvsAdamai.jpg";
+import inglorium from "../assets/Images/Inglorium.jpg";
+import retourMaison from "../assets/Images/RetourMaison.jpg";
+
 import fin from "../assets/Images/fin.jpg"
 
 const chronologie = [{ 

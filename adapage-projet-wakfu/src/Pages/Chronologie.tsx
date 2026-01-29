@@ -9,6 +9,9 @@ function Chronologie() {
   return (
     <>
       <Header />
+      <div>
+        
+      </div>
       <div className="w-full mx-auto py-12 px-4 relative bg-gray-900">
         {/* Ligne centrale continue */}
         <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-linear-to-b from-yellow-600 via-red-600 to-yellow-600 transform -translate-x-1/2"></div>
