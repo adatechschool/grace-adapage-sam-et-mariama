@@ -20,9 +20,7 @@ function App() {
     <Repliques/>
     <div>
        <div
-     /*  className="min-h-screen flex flex-col bg-cover bg-center"
-      style={{ backgroundImage: `url(${goultarddesert})` }} */
-    >
+    className="grid grid-cols-1 sm:grid-cols-2  gap-6 p-4">
       <div>
       <h2>Description</h2>
           <div>

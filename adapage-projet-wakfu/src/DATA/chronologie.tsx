@@ -10,7 +10,7 @@ import tristepinGoul from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapag
 import goulvsAdamai from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/goulvsAdamai.jpg"
 import inglorium from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/Inglorium.jpg"
 import retourMaison from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/RetourMaison.jpg"
-import fin from "/Users/sammyboy/Documents/Ada/Projet Collectif/Adapage/grace-adapage-sam-et-mariama/adapage-projet-wakfu/src/assets/Images/fin.jpg"
+import fin from "../assets/Images/fin.jpg"
 
 const chronologie = [{ 
     id:0,
