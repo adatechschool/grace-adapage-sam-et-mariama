@@ -34,7 +34,7 @@ function Footer() {
             onClick={() => setContactOpen(!contactOpen)}
             className="cursor-pointer text-yellow-500 hover:underline text-xs"
           >
-            Info supplémentaire
+            Infos supplémentaires
           </p>
 
           {contactOpen && (
