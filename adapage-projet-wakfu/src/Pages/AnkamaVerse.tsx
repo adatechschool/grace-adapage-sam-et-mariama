@@ -45,8 +45,8 @@ function AnkamaVerse(){
                   className="w-32 h-32 object-cover rounded-full"
                 />
 
-                <p className="text-xs text-white break-all text-center">
-                  {avatar.link}
+             <p className="text-xs text-white break-all text-center">
+                    <a href={avatar.link} className ="border border-yellow-500 p-2 rounded-3xl text-yellow-500">Plus d'infos</a>
                 </p>
               </div>
             ))}
@@ -70,11 +70,11 @@ function AnkamaVerse(){
                 <img
                   src={avatar.image}
                   alt={avatar.name}
-                  className="w-32 h-32 object-cover rounded-full"
+                  className="w-32 h-32 object-cover rounded-full mb-2"
                 />
 
                 <p className="text-xs text-white break-all text-center">
-                  {avatar.link}
+                  <a href={avatar.link} className ="border border-yellow-500 p-2 rounded-3xl text-yellow-500 ">Plus d'infos</a>
                 </p>
               </div>
             ))}
@@ -109,7 +109,7 @@ function AnkamaVerse(){
                   />
 
                   <p className="text-xs text-white break-all text-center">
-                    {avatar.link}
+                   <a href={avatar.link} className ="border border-yellow-500 p-2 rounded-3xl text-yellow-500">Plus d'infos</a>
                   </p>
                 </div>
               ))}
