@@ -19,7 +19,7 @@ function App() {
       <Header />
       <div className="w-full mx-auto py-12 px-4 relative text-white bg-gray-900 text-center">
         {/* <h1 className="text-3xl md:text-6xl font-bold mb-2 text-yellow-500 uppercase">{description.name}</h1> */}
-        <img className='w-xl justify-self-center-safe' src={goulProtecteur} alt={goulProtecteur} />
+        <img className='w-xl justify-self-center-safe mb-2' src={goulProtecteur} alt={goulProtecteur} />
       <div className='flex justify-evenly'>
         <div className='w-20'>
         <img src={épée} alt="épéé" />
