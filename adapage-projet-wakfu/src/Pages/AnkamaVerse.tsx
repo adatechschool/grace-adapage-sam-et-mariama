@@ -11,8 +11,13 @@ function AnkamaVerse(){
   const [avatars, setAvatars] = useState(ankamaVerse)
 
     return (
+
     <div className="w-full min-h-screen bg-gray-900 flex flex-col">
       <Header />
+
+  <div className="w-full mx-auto py-8 md:py-12 px-4 relative bg-gray-900 text-center">
+                <h1 className="text-3xl md:text-6xl font-bold mb-2 text-yellow-500 uppercase">AnkamaVerse</h1>
+        </div>
 
       {/* CENTRAGE TOTAL */}
       <main className="flex-1 flex items-center justify-center">
@@ -74,7 +79,7 @@ function AnkamaVerse(){
               </div>
             ))}
 
-          {/* GOULTARD LE PROTECTEUR + DARK VALD (SUPERPOSÉS) */}
+          {/* GOULTARD LE PROTECTEUR + DARK VALD*/}
           <div className="relative w-64 h-[420px]">
             {ankamaVerse
               .filter((a) => a.id === 2 || a.id === 3)
