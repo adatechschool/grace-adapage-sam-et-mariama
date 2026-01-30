@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import RepliquesAutoScroll from './components/RepliquesAutoScroll';
 import épée from './assets/Images/épéeGoultard.png'
 import goulNoirBlanc from "./assets/Images/GNoirBlanc.png"
+import goulProtecteur from "./assets/Images/LOGO-GOULTARD-07.png"
 
 /* import goultarddesert from "./scrimagedecor/goultarddesert.png"; */
 
@@ -17,7 +18,8 @@ function App() {
     <div className="w-full mx-auto py-6 px-4 relative bg-gray-900 text-center">
       <Header />
       <div className="w-full mx-auto py-12 px-4 relative text-white bg-gray-900 text-center">
-        <h1 className="text-3xl md:text-6xl font-bold mb-2 text-yellow-500 uppercase">{description.name}</h1>
+        {/* <h1 className="text-3xl md:text-6xl font-bold mb-2 text-yellow-500 uppercase">{description.name}</h1> */}
+        <img className='w-xl justify-self-center-safe' src={goulProtecteur} alt={goulProtecteur} />
       <div className='flex justify-evenly'>
         <div className='w-20'>
         <img src={épée} alt="épéé" />
@@ -73,7 +75,7 @@ function App() {
                     </div> */}
                   </div>
             </div>
-          <div className="flex justify-center">  
+          <div className="flex justify-center mb-10">  
             <div className='relative group cursor-pointer'>
             <img className='md:mt-0 mt-0 max-h-255 md:max-h-300 w-auto object-contain transition-opacity duration-300 group-hover:opacity-0' src={description.img} alt="Photo Goultard" />
 
