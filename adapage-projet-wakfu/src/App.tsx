@@ -4,6 +4,8 @@ import description from './data/description'
 //import Repliques from './components/Repliques'
 import Footer from "./components/Footer";
 import RepliquesAutoScroll from './components/RepliquesAutoScroll';
+import épée from './assets/Images/épéeGoultard.png'
+import goulNoirBlanc from "./assets/Images/GNoirBlanc.png"
 
 /* import goultarddesert from "./scrimagedecor/goultarddesert.png"; */
 
@@ -16,7 +18,15 @@ function App() {
       <Header />
       <div className="w-full mx-auto py-12 px-4 relative text-white bg-gray-900 text-center">
         <h1 className="text-3xl md:text-6xl font-bold mb-2 text-yellow-500 uppercase">{description.name}</h1>
+      <div className='flex justify-evenly'>
+        <div className='w-20'>
+        <img src={épée} alt="épéé" />
+        </div>
      <RepliquesAutoScroll />
+     <div className='w-20'>
+        <img src={épée} alt="épéé" />
+        </div>
+     </div>
 
     </div>
 
@@ -63,9 +73,13 @@ function App() {
                     </div> */}
                   </div>
             </div>
-            <div className="flex justify-center">  
-          <img className='md:mt-0 mt-0 max-h-[900px] md:max-h-[1200px] w-auto object-contain' src={description.img} alt="Photo Goultard" />
-       </div>
+          <div className="flex justify-center">  
+            <div className='relative group cursor-pointer'>
+            <img className='md:mt-0 mt-0 max-h-255 md:max-h-300 w-auto object-contain transition-opacity duration-300 group-hover:opacity-0' src={description.img} alt="Photo Goultard" />
+
+            <img className="absolute inset-0 md:mt-0 mt-0 max-h-255 md:max-h-300 w-auto object-contain opacity-0 group-hover:opacity-100 transition-opacity duration-300" src={goulNoirBlanc} alt={goulNoirBlanc} />
+            </div>
+          </div>
         </div>
 
         <Footer/>

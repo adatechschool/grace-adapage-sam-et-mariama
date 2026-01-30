@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import logo from '../assets/LOGO-GOULTARD-06.svg'
+import dofus from '../assets/Images/Dofus.png'
 
 export default function Header(){
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -22,8 +23,8 @@ export default function Header(){
             {/* Menu navigation */}
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row gap-2 w-full md:w-auto mt-2 md:mt-0`}>
                 <Link to={"/"}>
-                    <button className="w-full md:w-auto uppercase inline-flex items-center justify-center px-3 py-2 text-sm font-semibold text-gray-900 bg-yellow-500 rounded-xl hover:bg-linear-to-br from-yellow-500 via-yellow-200 to-yellow-500 transition">
-                        Accueil
+                    <button className=" w-10 uppercase inline-flex items-center justify-center p-1 text-sm font-semibold text-yellow-500 border border-yellow-500 rounded-full hover:bg-linear-to-br from-yellow-500 via-yellow-200 to-yellow-500 transition">
+                        <img src={dofus} alt={dofus} />
                     </button>
                 </Link>
                 <Link to={"/chronologie"}>

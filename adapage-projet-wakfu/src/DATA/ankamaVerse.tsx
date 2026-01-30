@@ -1,11 +1,11 @@
 const ankamaVerse =[{
     id:0,
-    name:"Goultard l’Ancien",
+    name:"Dieu Iop",
     label:"Fondateur de la lignée Goultard, Guerrier légendaire, connu pour avoir uni plusieurs clans barbares et repoussé des envahisseurs.Ses exploits posent les bases de la réputation de la famille.",
      image:""
 
 },{  id:1,
-    name:"Goultard le Jeune (DOFUS)",
+    name:"L'héritage de Goultard",
     label:"Descendants formés dès l’enfance à l’art du combat.Interviennent dans des guerres locales et protègent la lignée.Quelques membres ont été mentionnés dans des quêtes ou légendes mineures dans Dofus.",
     image:""
 },{  id:2,
